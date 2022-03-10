@@ -21,7 +21,7 @@ public class Average {
 
         double sum = 0;
         for(int value : arg) {
-            sum += arg[0];
+            sum += value;
         }
 
         return sum / arg.length;

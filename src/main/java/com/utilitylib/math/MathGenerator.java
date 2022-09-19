@@ -14,7 +14,7 @@ import java.util.Random;
 @Slf4j
 public class MathGenerator {
 
-    private static final String DEFAULT_PATH = "src/main/resources/pdf/math/";
+    private static final String DEFAULT_PATH = "src/main/resources/pdf/num_lt_50_sum/";
     private static final String LEFT_ZEROS = "%03d";
 
     public static void main(String... args) {
@@ -66,10 +66,10 @@ public class MathGenerator {
             float ty = 700;
             for (int index = 0; index < 25; index++) {
 
-                TextDTO textDTO1 = new TextDTO(generateTwoPositionNumbers(10), 100, ty, 12);
-                TextDTO textDTO2 = new TextDTO(generateTwoPositionNumbers(10), 225, ty, 12);
-                TextDTO textDTO3 = new TextDTO(generateTwoPositionNumbers(10), 350, ty, 12);
-                TextDTO textDTO4 = new TextDTO(generateTwoPositionNumbers(10), 475, ty, 12);
+                TextDTO textDTO1 = new TextDTO(generateTwoPositionNumbers(50), 100, ty, 12);
+                TextDTO textDTO2 = new TextDTO(generateTwoPositionNumbers(50), 225, ty, 12);
+                TextDTO textDTO3 = new TextDTO(generateTwoPositionNumbers(50), 350, ty, 12);
+                TextDTO textDTO4 = new TextDTO(generateTwoPositionNumbers(50), 475, ty, 12);
                 textDTO1.setTy(ty);
                 textDTO2.setTy(ty);
                 textDTO3.setTy(ty);
